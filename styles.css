@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html, body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+sidebar{
+    background-color: #1992d4;
+    color: white;
+    padding: 0.6rem 0.6rem 0.6rem 0.6rem;
+    font-family: "Roboto";
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 20% 70%;
+    column-gap: 5px;
+    grid-template-rows: repeat(auto-fit, minmax(max-content, 1fr));
+}
+
+DashboardTitle:first-child{
+    height: 5vw;
+    max-height: 40px;
+    max-width: auto;
+}
+sidebar>img{
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
+sidebar>p{
+    padding-left: 1px;
+    font-size: 2vw;
+}
